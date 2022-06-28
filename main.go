@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-	fmt.Println("12345")
+	fmt.Println("123456789")
 	router := mux.NewRouter()
 
 	router.HandleFunc("/api/user/new", controllers.CreateAccount).Methods("POST")
